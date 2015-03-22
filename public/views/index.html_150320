@@ -1,0 +1,13 @@
+<!-- public/views/index.html -->
+<!doctype html>
+<html lang='en'>
+<head>
+   <meta charset="UTF-8">
+   <title>Started MEAN single page app</title>
+</head>
+<body>
+   <h1>Hello World!!</h1>
+</body>
+</html>
+
+
