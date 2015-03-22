@@ -32,7 +32,15 @@ module.exports = function(app) {
 	// frontend routes
 
 	// route to handle all angular requests
-	app.get('*', function(req, res) {
+        app.get('/geeks', function(req, res) {
+	   // load public html file
+	   res.sendfile('./public/views/geek.html'); 
+	});
+        app.get('/nerds', function(req, res) {
+	   // load public html file
+	   res.sendfile('./public/views/nerd.html'); 
+	});
+        app.get('*', function(req, res) {
 	   // load public html file
 	   res.sendfile('./public/views/index.html'); 
 	});
