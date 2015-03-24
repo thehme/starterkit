@@ -1,4 +1,5 @@
 // server.js
+// Main application file, where Node.js application is initialized
 // need to run with following command in Ubuntu
 // nodejs server.js
 
